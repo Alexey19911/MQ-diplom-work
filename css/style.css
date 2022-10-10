@@ -1,0 +1,282 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*===========HEADER=========*/
+
+/*.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  
+  display: flex;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.6;
+  z-index: -2;
+  
+}
+
+@media(min-width: 1200px) {
+  .header{
+    background: url(../images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  }
+  .menu__logo{
+    width: 180px;
+  } 
+ }
+
+@media(min-width: 768px) and (max-width: 1199px) {
+  .header{
+    background: url(../images/banner-bg-tablet.jpg);
+ background-repeat: no-repeat;
+  } 
+  .menu__logo{
+    width: 160px;
+  }
+  .header::after {
+  max-width: 1199px;
+  
+}
+}
+
+@media (max-width: 767px) {
+  .header{
+    background: url(../images/banner-mobile.jpg);
+  background-repeat: no-repeat;
+ background-size: contain;
+  } 
+  .menu__logo{
+    width: 270px;
+    margin-top: 225px;
+   
+  }
+  .header::after {
+  max-width: 418px;
+  
+}
+}
+*/
+/*
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  
+  display: flex;
+  position: relative;
+  text-align: center;
+  
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*
+
+@media(min-width: 1200px) {
+  .header{
+    background: url(../images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  }
+ 
+ }
+
+@media(min-width: 768px) and (max-width: 1199px) {
+  .header{
+    background: url(../images/banner-bg-tablet.jpg);
+ background-repeat: no-repeat;
+ height: 380px;
+   background-size: cover;
+   width: 100%;
+  } 
+  
+  }
+*/
+/*@media(min-width: 350px) and (max-width: 767px) {*/
+  .header{
+    background: url(../images/banner-mobile.jpg);
+  background-repeat: no-repeat;
+
+
+  } 
+  
+
+
+
+
+
+
+
+/*
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.6;
+  z-index: -2;
+}
+
+.header__inner,
+.menu__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__inner {
+  max-width: 1200px;
+  margin: auto;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  max-width: 700px;
+  font-size: 45px;
+  line-height: 1.5;
+  padding: 128px 0;
+  margin: auto;
+  z-index: 2;
+  font-family: open-sans-b, sans-serif;
+  text-decoration: none;
+}
+
+.menu__item:nth-child(n + 2) {
+  margin-left: 30px;
+}
+.menu__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: open-sans-r, sans-serif;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+.home {
+  min-height: 100vh;
+  position: relative;
+
+  display: flex;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-color: #222;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1400px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+
+  position: relative;
+  z-index: 2; 
+}
+
+.home:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home__text {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #ffffff
+}
+
+@media (min-width: 1301px) {
+
+  .home {
+    font-size: 14px;
+  } 
+}
+
+@media (min-width: 767px) and (orientation: portrait) { 
+
+  .home {
+    min-height: 50vh;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1300px) {
+
+  .home {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .home {
+    font-size: 10px;
+  } 
+}
